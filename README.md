@@ -1,13 +1,13 @@
 ## TIL GENERATOR
 
-<img width="1759" alt="Screen Shot 2022-06-21 at 9 18 49 pm" src="https://user-images.githubusercontent.com/13482258/174787290-47e05ec2-5081-4e11-bccc-86d29e619296.png">
+<img width="1788" alt="Screen Shot 2022-06-23 at 8 02 29 pm" src="https://user-images.githubusercontent.com/13482258/175273766-550d0f3b-474c-44b8-944b-5a8774a4b6f7.png">
 
 Pending tasks:
 
 - Add a markdown editor in the app ✅
 - Add button controls named "Push to Github" ✅
 - Create services for Github API ✅
-- Style the button component and position it in the UI
+- Style the button component and position it in the UI ✅
 - Once the response is successful
   - Change the button label to successful
   - Clear the editor content
