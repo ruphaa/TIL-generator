@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { useState } from 'react';
 import { saveToGithubAPI } from '../../service.js';
 import editorContext from '../../editorContext';
+import './index.css';
 
 const Button = () => {
   const [ response, setResponse ] = useState('');
@@ -15,7 +16,7 @@ const Button = () => {
   }
 
   return (
-    <button onClick={saveToGithub}>Submit to Github</button>
+    <button className="button" onClick={saveToGithub}>Push to Github</button>
   )  
 }
 

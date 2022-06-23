@@ -17,8 +17,11 @@
 }
 
 .editorContainer {
-  display: flex;
-  column-gap: 8rem;
+  /* display: flex;
+  column-gap: 8rem; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.5rem;
 }
 
 .markdownEditor {}
