@@ -5,7 +5,6 @@ import './index.css';
 
 const Preview = () => {
   const { markdownText } = useContext(editorContext);
-  console.log(markdownText)
   return (
     <div className="preview-container">
       <div className="title">Preview</div>
