@@ -14,7 +14,6 @@ async function saveToGithubAPI(pathName, content) {
         message: 'Today I learnt',
         content: Buffer.from(content, 'utf8').toString('base64')
     })
-    console.log(response)
     return response.data;
 }
 

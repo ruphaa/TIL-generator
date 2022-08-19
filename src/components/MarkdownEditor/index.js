@@ -3,7 +3,7 @@ import editorContext from '../../editorContext';
 import './index.css';
 
 const MarkdownEditor = () => {
-  const { setMarkdownText } = useContext(editorContext);
+  const { markdownText, setMarkdownText } = useContext(editorContext);
 
   const onInputChange = (e) => {
     const newValue = e.currentTarget.value;
@@ -13,7 +13,7 @@ const MarkdownEditor = () => {
   return (
     <div className="markdown-container">
       <div className="title">Markdown Editor</div>
-      <textarea onChange={onInputChange}></textarea>
+      <textarea onChange={onInputChange} value={markdownText}></textarea>
     </div>
   )
 }

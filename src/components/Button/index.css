@@ -15,3 +15,20 @@
 .button:hover {
     background-color: #E1A41D;
 }
+
+.button.done {
+    background-color: #105652;
+    color: #ffffff;
+}
+
+.button.error {
+    background-color: #B91646;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+.toast-message {
+    font-size: 16px;
+}
