@@ -16,7 +16,7 @@
 - If the response fails
   - Don't clear the content ✅
   - Show toast why it failed or error message ✅
-- Publish the website in netlify
+- Publish the website in netlify ✅
 
 #### Nice to have
 - For the same day, if you want to add more content create another service update - get the content, append the additional content and update the TIL file for that day, should be straightforward.
